@@ -1,0 +1,36 @@
+package com.keerthi;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner in=new Scanner(System.in);
+        System.out.println("enter first number: ");
+        int a=in.nextInt();
+        System.out.println("enter second number: ");
+        int b=in.nextInt();
+        System.out.println("enter third number: ");
+        int c=in.nextInt();
+        if(a>=b&&a>=c){
+            System.out.println("\n"+a+" is a largest number");
+        }
+        else if(b>=a&&b>=c){
+            System.out.println("\n"+b+" is a largest number");
+        }
+        else
+            System.out.println("\n"+c+" is a largest number");
+    }
+} 
+
+Algorithm:
+1.input three numbers 
+2.check if first number is greater than or equal s to second and third is true print first number
+3.check second number is greater than or equals to first and third number is true print second number
+4.else print third number is greater.
+
+COMMAND LINE:
+//input three numbers using scanner
+//Check if first number is greater than the two number using if loop
+//Check if second number is greater than the two number using else if loop
+// Else print c is greater
