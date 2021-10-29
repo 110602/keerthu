@@ -1,0 +1,53 @@
+package com.keerthi;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner in=new Scanner(System.in);
+        System.out.println("enter  a number: ");
+        int num =in.nextInt();
+        for (int i=1;i<num;i++){
+        sum+=I;
+        if (sum==I) {
+             P=1;
+              System.out.println(num+" is a perfect number");
+    break;
+    }
+}
+  if (p==0)
+      System.out.println(num+" is not a perfect number');
+    }
+}
+ALGORITHM:
+
+
+
+
+
+
+
+
+
+
+
+COMMAND LINE:
+  num=6
+
+Sum=0,p=0 
+For loop:
+i=1, 1<6 ,  sum=1 
+I=2, 2<6,  sum=1+2=3
+I=3, 3<6, sum=3+3=6
+
+If loop:
+When 6==6 
+Give value one to p
+Print 6 is perfect
+And break the loop 
+
+if it is not perfect num
+If loop 
+Check if p==0
+It is zero then print is not perfect
