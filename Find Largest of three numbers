@@ -30,7 +30,14 @@ Algorithm:
 4.else print third number is greater.
 
 COMMAND LINE:
-//input three numbers using scanner
-//Check if first number is greater than the two number using if loop
-//Check if second number is greater than the two number using else if loop
-// Else print c is greater
+a=2
+b=1
+c=4
+If loop:
+2>=1 and 2>=4  doesn't exicute 
+
+Else if:
+1>=2 doesn't exicute
+ 
+Else:
+Print 4
