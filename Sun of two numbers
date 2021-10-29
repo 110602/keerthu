@@ -1,0 +1,47 @@
+package com.keerthi;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+     Scanner in=new Scanner(System.in);
+        System.out.println("enter a number: ");
+        int num=in.nextInt();
+        System.out.println("enter a number: ");
+        int num1=in.nextInt();
+        while(num1!=0){
+         num++;
+         num1--;
+            
+     }
+          
+        System.out.println("\nsum of two numbers: "+num);
+      
+    }
+}
+
+ALGORITHM:
+
+
+
+
+
+
+
+
+
+
+
+
+
+COMMAND LINE:
+num=2
+num1=3
+
+While loop (3!=0)
+2+1=3,.    3-1=2
+3+1=4,.    2-1=1
+4+1=5,.    1-1=0 is zero loop stop.
+
+Print num=5
